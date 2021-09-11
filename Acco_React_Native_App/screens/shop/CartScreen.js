@@ -57,7 +57,7 @@ const CartScreen = props => {
         
           </Text>
         </Text>
-        {isLoading ? ( <ActivityIndicator size='small' color={Colors.primary} /> ) : (
+        {isLoading ? ( <ActivityIndicator size='large' color={Colors.primary} /> ) : (
         <Button
           color={Colors.accent}
           title="Request Now"
